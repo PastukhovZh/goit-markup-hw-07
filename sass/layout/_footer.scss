@@ -10,7 +10,7 @@
 }
 
 .footer-address {
-  font-weight: 400;
+  font-weight:var(--secondary-font-weight) ;
   font-size: 14px;
   line-height: 1.71;
   color: var(--third-basic-color);
@@ -30,7 +30,7 @@
 }
 
 .footer-link {
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 14px;
   line-height: 1.17;
   color: rgba(255, 255, 255, 0.6);
@@ -38,7 +38,7 @@
 }
 
 .footer-item__title {
-  font-weight: 700;
+  font-weight: var(--basic-font-weight);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -100,7 +100,7 @@ flex-grow: 1;
 
 .social-form__list{
 display: block;
-font-weight: 700;
+font-weight: var(--basic-font-weight);
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -123,7 +123,7 @@ margin-bottom: 20px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  font-weight: 400;
+  font-weight: var(--secondary-font-weight);
   font-size: 16px;
   line-height: 1.25;
   display: flex;
@@ -136,7 +136,7 @@ margin-bottom: 20px;
 .social-form__subscribe-btn{
   width: 200px;
   height: 50px;
-  font-weight: 700;
+  font-weight: var(--basic-font-weight);
   font-size: 16px;
   line-height: 1.88;
   display: flex;

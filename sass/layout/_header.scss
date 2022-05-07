@@ -31,7 +31,7 @@
   
   .header-page__link{
     position: relative;
-    font-weight: 500;
+    font-weight: var(--third-font-weight);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -61,7 +61,7 @@
   }
 
   .header-contact__item{
-    font-weight: 500;
+    font-weight: var(--third-font-weight);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;

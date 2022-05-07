@@ -5,7 +5,7 @@
   }
   
   .team-title {
-    font-weight: 700;
+    font-weight: var(--basic-font-weight);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -62,18 +62,18 @@
     border-radius: 0px 0px 4px 4px;
     background-color: var(--third-basic-color);
     &:not(:last-child) {
-    margin-right: 30px;
+    margin-right: var(--typical-gap);
     }
   
   }
   
  
   .team-name-job {
-    padding: 30px 0;
+    padding: var(--typical-gap) 0;
   }
   
   .team-person {
-    font-weight: 500;
+    font-weight: var(--third-font-weight);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;

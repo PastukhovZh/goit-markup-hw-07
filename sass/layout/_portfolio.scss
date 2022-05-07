@@ -5,7 +5,7 @@
 
 
 .nav-btn {
-  font-weight: 500;
+  font-weight: var(--third-font-weight);
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -44,7 +44,7 @@
 }
 
 .prtf-item-name {
-  font-weight: 700;
+  font-weight: var(--basic-font-weight);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -65,9 +65,9 @@
 .prtf-list {
   padding: 0;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: var(--typical-gap);
   flex-basis: calc(100% / 3 - 30px);
-  margin-right: 30px;
+  margin-right: var(--typical-gap);
   &:nth-child(3n + 3) {
     margin-right: 0;
   }
