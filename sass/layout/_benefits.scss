@@ -22,11 +22,12 @@
   .text-li {
     display: block;
     max-width: 270px;
-  }
-  
-  .text-li+.text-li {
+    &+& {
     margin-left: 30px;
   }
+  }
+  
+  
   
   .text-item-name {
     font-weight: 700;
